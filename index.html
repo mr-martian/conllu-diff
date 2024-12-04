@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CoNLL-U Diff Tool</title>
+    <script type="text/javascript" src="vendor/jquery-3.7.1.min.js"></script>
+    <script type="text/javascript" src="diff.js"></script>
+    <link rel="stylesheet" href="diff.css"/>
+  </head>
+  <body>
+    <details>
+      <summary>Change Trees</summary>
+      <div class="box">
+        <label for="old">Old Tree</label>
+        <textarea id="old"></textarea>
+      </div>
+      <div class="box">
+        <label for="new">New Tree</label>
+        <textarea id="new"></textarea>
+      </div>
+      <br/>
+      <label for="rtl">Right-To-Left Text</label>
+      <input type="checkbox" id="rtl"></input>
+      <br/>
+      <span id="info"></span>
+    </details>
+    <svg id="canvas"></svg>
+    <table>
+      <tbody id="words">
+      </tbody>
+    </table>
+  </body>
+</html>

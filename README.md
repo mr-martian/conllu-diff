@@ -1,2 +1,3 @@
 # conllu-diff
-CoNLL-U Diff Tool
+
+A simple tool for diffing CoNLL-U trees.

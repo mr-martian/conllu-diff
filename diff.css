@@ -1,0 +1,45 @@
+path {
+    fill: none;
+}
+
+g.ins path {
+    stroke: green;
+}
+
+g.ins text {
+    fill: green;
+}
+
+g.del path {
+    stroke: red;
+}
+
+g.del text {
+    fill: red;
+}
+
+g.same path {
+    stroke: black;
+}
+
+ins {
+    color: green;
+    display: block;
+}
+
+del {
+    color: red;
+    display: block;
+}
+
+div.box label {
+    display: block;
+}
+
+div.box {
+    display: inline-block;
+}
+
+td {
+  text-align: center;
+}
