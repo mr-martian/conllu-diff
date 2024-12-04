@@ -68,6 +68,9 @@ function update_trees() {
       $('#info').html('The trees have different lengths.');
     }
     return;
+  } else if (oldtree.length == 1 && newtree.length == 1) {
+    // empty trees
+    return;
   }
 
   if ($('#rtl').is(':checked')) {
