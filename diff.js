@@ -64,7 +64,7 @@ function update_trees() {
   let oldtree = parse_conllu($('#old').val());
   let newtree = parse_conllu($('#new').val());
   if (oldtree.length != newtree.length) {
-    if (oldtree.length > 0 || newtree.length > 0) {
+    if (oldtree.length > 1 || newtree.length > 1) {
       $('#info').html('The trees have different lengths.');
     }
     return;
